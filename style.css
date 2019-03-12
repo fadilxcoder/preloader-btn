@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background: white;
+}
+/*----------------------- Preloader -----------------------*/
+body.preloader-site {
+    overflow: hidden;
+}
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+    background-image: url(preloader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+/*----------------------- EOF Preloader -----------------------*/
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.wrapper p{
+    margin: 0px;
+}
+.wrapper .btn-wrp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.wrapper .btn-wrp button{
+    cursor: pointer;
+    border: none;
+    background-color: #F4E060;
+    font-size: 1rem;
+    box-shadow: 4px 4px 0 #156D81, 8px 8px 0 #fff;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    outline: 0;
+    transform: scale(1.5);
+}
+.wrapper .btn-wrp button:active {
+  box-shadow: 4px 4px 0 #fff;
+  transform: scale(1.5) translate(4px, 4px);
+}
