@@ -1,2 +1,2 @@
 
-#Preloader in HTML / CSS / JS 
+Preloader in HTML / CSS / JS 
